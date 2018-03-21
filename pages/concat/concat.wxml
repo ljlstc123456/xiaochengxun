@@ -10,7 +10,9 @@
    <text>查看成员</text>
   </view>
   <view>
-    <button class="concat" open-type="contact">BKB_LJL</button>
+    <button class="concat" open-type="contact">
+    <image style="width: 40px; height:32px;" mode="" src="../../static/img/weixin.png"></image>
+    BKB_LJL</button>
     <button class="concat">15982111370</button>
   </view>
 </view>
