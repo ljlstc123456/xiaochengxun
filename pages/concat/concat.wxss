@@ -1,0 +1,14 @@
+.team{
+  padding: 50rpx;
+}
+.partner {
+  padding-left:50rpx;
+  line-height: 90rpx;
+  border:1rpx solid #ccc;
+  border-width: 1rpx 0 1rpx 0;
+}
+.partner:active{
+  background-color: #efefef;
+}
+.concat{
+}

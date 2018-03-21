@@ -1,0 +1,16 @@
+<view class="concat-container">
+   <view class="team">
+    <text>
+    xxx是一支精简强悍的团队，每位成员都有5年以上开发经验，互联网行业经验丰富。
+    我们用技术，打造您的品牌
+    我们用态度，温暖您的客户
+    </text>
+    </view>
+  <view class="partner">
+   <text>查看成员</text>
+  </view>
+  <view>
+    <button class="concat" open-type="contact">BKB_LJL</button>
+    <button class="concat">15982111370</button>
+  </view>
+</view>

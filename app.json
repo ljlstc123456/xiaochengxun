@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/concat/concat",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#000000",
+    "selectedColor":"#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"static/img/icon-index.png",
+        "selectedIconPath":"static/img/icon-index-hover.png"
+      },
+      {
+        "pagePath": "pages/concat/concat",
+        "text": "联系合作",
+        "iconPath": "static/img/icon-im.png",
+        "selectedIconPath": "static/img/icon-im-hover.png"
+      }
+    ]
+  }
+}
