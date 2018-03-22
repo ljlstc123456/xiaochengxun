@@ -1,16 +1,45 @@
 .team{
+  position: relative;
   padding: 50rpx;
+  overflow: visible;
 }
-.partner {
-  padding-left:50rpx;
-  line-height: 90rpx;
+.team image{
+  transform: rotate(35deg);
+  position: absolute;
+  right:10px;
+  top:-5px;
+}
+.title{
+  padding-left: 50rpx;
+  background: #efefef;
+  color:#888;
+  font-size: 14px;
+  line-height: 60rpx;
+}
+.cell-group{
+  
   border:1rpx solid #ccc;
   border-width: 1rpx 0 1rpx 0;
 }
-.partner:active{
+.cell-group view{
+  position: relative;
+  font-size: 40rpx;
+  line-height: 100rpx;
+}
+.cell-group view:active{
   background-color: #efefef;
 }
-.concat{
-  border: none;
-  outline: none;
+.cell-group image{
+  padding-left:30rpx;
+  margin-right:20rpx;
+}
+.cell-group image,.cell-group text{
+  vertical-align: middle;
+}
+.contact{
+  position: absolute;
+  left:0;
+  top:0;
+  right:0;
+  opacity: 0;
 }

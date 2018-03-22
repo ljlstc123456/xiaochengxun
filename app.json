@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/concat/concat",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/concat/concat"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "店铺建站",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

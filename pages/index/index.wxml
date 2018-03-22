@@ -1,14 +1,50 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-    <button open-type="contact">客服</button>
+<view>
+  <view class="header">
+    <!-- <text>店铺建站</text> -->
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="select">
+    <text>😀请选择服务内容？</text>
   </view>
+
+  <view class='services'>
+    <view class="cell-33">
+      <view style='background:#b5e11c;padding-top:4vw;'>
+      <image style='width:12vw;height:12vw;' src='../../static/img/xcx.png'></image>
+      </view>
+      <text>小程序</text>
+    </view>
+    <view class="cell-33">
+      <view style='background:#fcb914;padding-top:4vw;'>
+      <image style='width:12vw;height:12vw;' src='../../static/img/pc.png'></image>
+      </view>
+      <text>pc官网</text>
+    </view>
+    <view class="cell-33">
+      <view  style='background:#36ab60;padding-top:4vw;'>
+      <image style='width:12vw;height:12vw;' src='../../static/img/wgw.png'></image>
+      </view>
+      <text>微官网</text>
+    </view>
+    <view class="cell-33">
+      <view style='background:#0dd8fc;padding-top:4vw;'>
+      <image style='width:12vw;height:12vw;' src='../../static/img/zsy.png'></image>
+      </view>
+      <text>响应式官网</text>
+    </view>
+    <view class="cell-33">
+      <view style='background:#109ffd;padding-top:4vw;'>
+      <image style='width:12vw;height:12vw;' src='../../static/img/h5.png'></image>
+      </view>
+      <text>H5宣传单</text>
+    </view>
+    <view class="cell-33">
+      <view style='background:#ff5853;padding-top:4vw;'>
+      <image style='width:12vw;height:12vw;' src='../../static/img/wb.png'></image>
+      </view>
+      <text>外包咨询服务</text>
+    </view>
+  </view>
+  <image style='width:110px;height:100px;' src='../../static/img/dxe.jpg'></image>
 </view>

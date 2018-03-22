@@ -1,18 +1,32 @@
 <view class="concat-container">
-   <view class="team">
+  <view class="team">
     <text>
     xxx是一支精简强悍的团队，每位成员都有5年以上开发经验，互联网行业经验丰富。
     我们用技术，打造您的品牌
     我们用态度，温暖您的客户
     </text>
-    </view>
-  <view class="partner">
-   <text>查看成员</text>
+    <image style="width: 50px; height:50px;" mode="" src="../../static/img/crown.png"></image>
   </view>
-  <view>
-    <button class="concat" open-type="contact">
-    <image style="width: 40px; height:32px;" mode="" src="../../static/img/weixin.png"></image>
-    BKB_LJL</button>
-    <button class="concat">15982111370</button>
+  <view class="cell-group">
+    <view>
+      <image style="width: 32px; height:32px;" mode="" src="../../static/img/group.png"></image>
+      <text>团队成员</text>
+    </view>
+  </view>
+  <view class="title">
+    <text>联系我们</text>
+  </view>
+  <view class="cell-group">
+
+    <view>
+      <image style="width: 32px; height:25.6px;" mode="" src="../../static/img/weixin.png"></image>
+      <text>BKB_LJL</text>
+      <button class="contact" open-type="contact">kefu</button>
+    </view>
+
+    <view bindtap="callphone" style='border-top:1rpx solid #ccc;'>
+      <image style="width: 32px; height:32px;" mode="" src="../../static/img/phone.png"></image>
+      <text>15982111370</text>
+    </view>
   </view>
 </view>
