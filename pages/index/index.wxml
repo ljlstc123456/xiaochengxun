@@ -1,50 +1,55 @@
 <!--index.wxml-->
 <view>
-  <view class="header">
-    <!-- <text>店铺建站</text> -->
+  <!-- <view class="header">
+     <text>店铺建站</text>
+  </view> -->
+
+  <view class="title">
+    <text>请选择服务内容</text>
   </view>
 
-  <view class="select">
-    <text>😀请选择服务内容？</text>
-  </view>
-
-  <view class='services'>
+  <view class='services' data-type="1" data-title="小程序" catchtap="goGoodsList">
     <view class="cell-33">
-      <view style='background:#b5e11c;padding-top:4vw;'>
+      <view style='background:#b5e11c;'>
       <image style='width:12vw;height:12vw;' src='../../static/img/xcx.png'></image>
       </view>
       <text>小程序</text>
     </view>
-    <view class="cell-33">
-      <view style='background:#fcb914;padding-top:4vw;'>
+    <view class="cell-33" data-type="2" data-title="pc官网" catchtap="goGoodsList">
+      <view style='background:#fcb914;'>
       <image style='width:12vw;height:12vw;' src='../../static/img/pc.png'></image>
       </view>
       <text>pc官网</text>
     </view>
-    <view class="cell-33">
-      <view  style='background:#36ab60;padding-top:4vw;'>
+    <view class="cell-33" data-type="3" data-title="微官网" catchtap="goGoodsList">
+      <view  style='background:#36ab60;'>
       <image style='width:12vw;height:12vw;' src='../../static/img/wgw.png'></image>
       </view>
       <text>微官网</text>
     </view>
-    <view class="cell-33">
-      <view style='background:#0dd8fc;padding-top:4vw;'>
+    <view class="cell-33" data-type="4" data-title="响应式官网" catchtap="goGoodsList">
+      <view style='background:#0dd8fc;'>
       <image style='width:12vw;height:12vw;' src='../../static/img/zsy.png'></image>
       </view>
       <text>响应式官网</text>
     </view>
-    <view class="cell-33">
-      <view style='background:#109ffd;padding-top:4vw;'>
+    <view class="cell-33" data-type="5" data-title="H5宣传单" catchtap="goGoodsList">
+      <view style='background:#109ffd;'>
       <image style='width:12vw;height:12vw;' src='../../static/img/h5.png'></image>
       </view>
       <text>H5宣传单</text>
     </view>
-    <view class="cell-33">
-      <view style='background:#ff5853;padding-top:4vw;'>
+    <view class="cell-33" data-type="6" data-title="外包咨询服务" catchtap="goGoodsList">
+      <view style='background:#ff5853;'>
       <image style='width:12vw;height:12vw;' src='../../static/img/wb.png'></image>
       </view>
       <text>外包咨询服务</text>
     </view>
+    
   </view>
-  <image style='width:110px;height:100px;' src='../../static/img/dxe.jpg'></image>
+  <view class="title" style='margin-top:40px;margin-bottom:20px;'>
+    <text>热销推荐</text>
+  </view>
+
+  <goodsList list="{{list}}"></goodsList>
 </view>

@@ -1,13 +1,16 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/concat/concat"
+    "pages/concat/concat",
+    "pages/goodsList/goodsList",
+    "pages/goodsDetail/goodsDetail",
+    "pages/partners/partners"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#109ffd",
     "navigationBarTitleText": "店铺建站",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#fff"
   },
   "tabBar": {
     "color":"#000000",

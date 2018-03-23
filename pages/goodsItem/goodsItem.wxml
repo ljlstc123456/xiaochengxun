@@ -1,0 +1,12 @@
+<view class="goodsList">
+  <view wx:for="{{list}}">
+    <view class="item" data-id="{{index}}" catchtap='goDetail'>
+    <image src='{{item.url}}' mode='widthFix'></image>
+    <text class="name">{{item.name}}</text>
+    <view>
+      <text class="price">￥{{item.price}}</text>
+      <text class="time">{{item.time}}</text>
+    </view>
+    </view>
+  </view>
+</view>

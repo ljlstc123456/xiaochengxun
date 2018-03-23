@@ -9,5 +9,10 @@ Page({
   },
   onLoad: function () {
     
+  },
+  goPartner(){
+    wx.navigateTo({
+      url: '../partners/partners'
+    })
   }
 })

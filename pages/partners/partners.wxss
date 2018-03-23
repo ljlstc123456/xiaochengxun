@@ -1,0 +1,31 @@
+.partner{
+  padding:40rpx 40rpx;
+}
+.people{
+  display: flex;
+  padding:10px 0 5px;
+  border-bottom: 1px solid #efefef;
+}
+.people image{
+  width:20vw;
+  height: 20vw;
+  margin-right:20px;
+  border-radius:50%;
+}
+.people>view{
+  flex:1;
+}
+.people>view .h2{
+  font-size:16px;
+  font-weight: bold;
+}
+.people>view>text{
+  display: block;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 14px;
+  color:#666;
+}
+.people>view>text text{
+  color:#999;
+}

@@ -1,0 +1,32 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item catchtap="preview">
+        <image src="{{item}}" class="slide-image" mode="aspectFit" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='detail'>
+    <view class="info">
+      <text class="info-title">参考价格：</text>
+      <text class="info-value price">￥1000~2000</text>
+    </view>
+    <view class="info">
+      <text class="info-title">制作周期：</text>
+      <text class="info-value">1周</text>
+    </view>
+  </view>
+  <view class="title">
+    <text>制作流程</text>
+  </view>
+  <view class='require'>
+    <text>1.通过首页右下角《联系合作》 联系我们</text>
+    <text>2.确认项目需求，确定价格</text>
+    <text>3.准备相关资料</text>
+    <text>4.研发(可随时查看进度)</text>
+    <text>5.交付测试</text>
+    <text>6.结账，提交微信审核（审核时间以微信具体时间为准）</text>
+    <text>7.后期维护</text>
+  </view>
+</view>

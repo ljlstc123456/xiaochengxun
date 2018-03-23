@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view style='padding-top:20px;'>
+  <goodsList list="{{list}}"></goodsList>
+</view>

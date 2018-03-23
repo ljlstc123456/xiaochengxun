@@ -3,28 +3,47 @@
   border-bottom:2px solid #555;
   font-size: 30px;
 }
-.select{
+.title{
+  position: relative;
+  box-sizing: border-box;
   padding-left:30rpx;
-  line-height: 130rpx;
+  margin-top:30px;
+  margin-left:5vw;
+  width:90vw;
+  height: 20px;
+  font-size:20px;
+  color:#333;
+  border-top:1rpx solid #ccc;
+}
+.title text{
+  display: block;
+  position: absolute;
+  top:-15px;
+  padding:0 20rpx;
+  background: #ffffff;
 }
 .services{
-  padding:50rpx 20rpx;
+  padding:20rpx 20rpx 0 20rpx;
    display: flex;
    flex-wrap:  wrap ;
 }
 .services .cell-33{
   flex: 0 0 33.3%; 
   max-width: 33.3%; 
+  padding:10px 0;
   text-align: center;
-  margin-bottom:40rpx;
+  color:#555;
+  font-size:14px;
+}
+.services .cell-33:active{
+  background: #efefef;
 }
 .services .cell-33 view{
   box-sizing: border-box;
   margin: auto;
   margin-bottom: 10rpx;
+  padding-top:4vw;
   width:20vw;
   height:20vw;
-  font-size:12px;
   border-radius: 50%;
-  /* background-color: #000; */
 }

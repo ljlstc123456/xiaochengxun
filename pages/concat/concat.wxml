@@ -8,7 +8,7 @@
     <image style="width: 50px; height:50px;" mode="" src="../../static/img/crown.png"></image>
   </view>
   <view class="cell-group">
-    <view>
+    <view catchtap='goPartner'>
       <image style="width: 32px; height:32px;" mode="" src="../../static/img/group.png"></image>
       <text>团队成员</text>
     </view>

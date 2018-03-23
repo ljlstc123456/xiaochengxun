@@ -1,0 +1,27 @@
+<view class="partner">
+  <view class="people">
+    <image mode="aspectFit" src='../../static/img/avator.jpg'></image>
+    <view>
+      <text class="h2">发顺--高级前端工程师</text>
+      <text><text>擅长：</text>web前端，H5，小程序，各种响应式网页</text>
+      <text><text>简介：</text>2011年毕业于东北师范大学软件工程学院，7年前端开发经验，曾就职于中兴，诺亚舟等公司。目前就职于腾讯企鹅医生，担任前端工程师一职</text>
+    </view>
+  </view>
+  <view class="people">
+    <image mode="aspectFit" src='../../static/img/avator2.jpg'></image>
+    <view>
+      <text class="h2">大朋--高级网络工程师</text>
+      <text><text>擅长：</text>后台架构，高并发；网络安全，协议栈，应用识别</text>
+      <text><text>简介：</text>5年网络安全底层开发经验，参与过高性能网络平台协议栈，应用识别，流量分析等多个核心模块开发；
+3年互联网后台开发经验，对分布式、高并发、集群系统架构设计有深入理解；</text>
+    </view>
+  </view>
+  <view class="people">
+    <image mode="aspectFit" src='../../static/img/avator1.jpg'></image>
+    <view>
+      <text class="h2">Navyblue--高级Java开发工程师</text>
+      <text><text>擅长：</text>web后台，常见框架，前后台交互、MySQL、NoSql、消息中间件</text>
+      <text><text>简介：</text>东北师范大学，本科，软件工程，7年Java经验，就职于搜狗</text>
+    </view>
+  </view>
+</view>
